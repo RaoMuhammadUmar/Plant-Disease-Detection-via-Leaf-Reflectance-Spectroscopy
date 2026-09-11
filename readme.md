@@ -1,4 +1,21 @@
 cat > README.md << 'EOF'
+
+## Key Figures
+
+### 1. Mean Reflectance by Class
+The model detects disease from wavelengths the eye cannot see. Most of the separation is in the Near-Infrared (NIR) and Short-Wave Infrared (SWIR) regions.
+
+![Reflectance by Class](docs/01_reflectance_by_class.png)
+
+### 2. Confusion Matrix
+![Confusion Matrix](docs/02_confusion_matrix.png)
+
+### 3. Top-20 Most Important Wavelengths
+![Feature Importance](docs/03_feature_importance.png)
+
+### 4. PCA of Test Samples
+![PCA Scatter](docs/04_pca_scatter.png)
+
 # Strawberry Disease Detection from Leaf Reflectance
 
 Detects whether a strawberry plant is diseased by analysing leaf
