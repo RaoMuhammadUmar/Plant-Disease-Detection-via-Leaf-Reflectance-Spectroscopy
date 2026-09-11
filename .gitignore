@@ -1,0 +1,23 @@
+# Virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# Data (private)
+*.csv
+!class_labels.json
+!model_info.json
+
+# Model binaries
+*.pkl
+*.joblib
+
+# Old / scratch
+_old/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+{
+  "winner": "Random Forest",
+  "validation_accuracy": 0.7058823529411765,
+  "validation_f1": 0.7058823529411765,
+  "test_accuracy": 0.8252427184466019,
+  "class_labels": [
+    "Diseased",
+    "Healthy"
+  ],
+  "n_wavelengths": 2177,
+  "wavelength_range_nm": [
+    339.0,
+    2515.0
+  ]
+}
